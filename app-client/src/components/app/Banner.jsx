@@ -46,7 +46,7 @@ function Banner() {
     return(
         <section className="banner" id="home">
             <Container>
-                <Row className="aligh-items-center">
+                <Row className="aligh-items-center container-banner">
                     <Col xs={12} md={6} xl={7}>
                         <TrackVisibility>
                             {
@@ -61,7 +61,7 @@ function Banner() {
                         </TrackVisibility>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <TrackVisibility>
+                        <TrackVisibility className="container-banner-img">
                             {
                                 ({ isVisible }) =>
                                     <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>

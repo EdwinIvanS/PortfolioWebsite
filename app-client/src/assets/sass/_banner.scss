@@ -59,7 +59,7 @@
 
 .banner img {
     animation: updown 3s linear infinite;
-    width: 60%;
+    width: 150%;
 }
 
 @keyframes updown {
@@ -78,4 +78,16 @@
 
 .txt-rotate>.wrap {
     border-right: 0.08em solid #666;
+}
+
+.container {
+    padding: 0px 45px;
+}
+
+.container-banner{
+    display: flex;
+}
+
+.container-banner-img{
+    width: 100%;
 }

@@ -68,8 +68,8 @@ function Proyects(){
                                             </Nav.Item>
                                         </Nav>
                                         <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                                            <Tab.Pane eventKey="first">
-                                                <Row>
+                                            <Tab.Pane eventKey="first" className="container-proyects">
+                                                <Row className="section-proyects">
                                                     {
                                                         projects.map((proyect, index) =>{
                                                             return(

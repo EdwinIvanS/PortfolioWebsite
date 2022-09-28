@@ -21,14 +21,14 @@ const NavBarC = () => {
     return(
         <Router>
             <NavBar expand="md" className={ scrolled ? "scrolled" : ""}>
-                <Container>
+                <Container className="container-navbar">
                     <NavBar.Brand >
                         <img className="navbar-logo" src={logo} alt=""/>
                     </NavBar.Brand>
                     <NavBar.Toggle aria-controls="basic-navbar-nav">
                         <span className="navbar-toggler-icon"></span>
                     </NavBar.Toggle>
-                    <NavBar.Collapse id="basic-navbar-nav">
+                    <NavBar.Collapse id="basic-navbar-nav-Collapse" className="container-navbar">
                         <Nav className="ms-auto">
                             <Nav.Link href="#home"     className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'}     onClick={ () => onUpdateActiveLink('home')}>Home</Nav.Link>
                             <Nav.Link href="#skills"   className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'}   onClick={ () => onUpdateActiveLink('skills')}>Skills</Nav.Link>
