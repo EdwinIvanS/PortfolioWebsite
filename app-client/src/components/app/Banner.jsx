@@ -47,7 +47,7 @@ function Banner() {
         <section className="banner" id="home">
             <Container>
                 <Row className="aligh-items-center container-banner">
-                    <Col xs={12} md={6} xl={7}>
+                    <Col xs={12} md={6} xl={7} className="container-banner-section1">
                         <TrackVisibility>
                             {
                                 ({ isVisible }) => 
@@ -60,7 +60,7 @@ function Banner() {
                             }
                         </TrackVisibility>
                     </Col>
-                    <Col xs={12} md={6} xl={5}>
+                    <Col xs={12} md={6} xl={5} className="container-banner-section2">
                         <TrackVisibility className="container-banner-img">
                             {
                                 ({ isVisible }) =>

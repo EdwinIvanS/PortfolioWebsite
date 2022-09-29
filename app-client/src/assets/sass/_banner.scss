@@ -59,7 +59,7 @@
 
 .banner img {
     animation: updown 3s linear infinite;
-    width: 150%;
+    width: 100%;
 }
 
 @keyframes updown {
@@ -90,4 +90,14 @@
 
 .container-banner-img{
     width: 100%;
+}
+
+.container-banner-section1{
+    width: 65%;
+}
+
+.container-banner-section2 {
+    align-items: center;
+    display: flex;
+    width: 35%;
 }

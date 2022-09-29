@@ -129,6 +129,7 @@ nav.navbar .navbar-toggler:focus {
 }
 
 nav.navbar .navbar-toggler-icon {
+    display: none;
     width: 24px;
     height: 17px;
     background-image: none;
@@ -178,6 +179,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .container-navbar{
     align-items: center;
     display: flex;
+    justify-content: space-around;
 }
 
 .basic-navbar-nav-Collapse{
